@@ -19,11 +19,7 @@ class Post
     @author = author
   end
    def author_name
-    if self.author_name == nil 
-      return nil
-    else
-      return self.author_name
-    end
+
   end
   def name=(name)
     @name = name 
