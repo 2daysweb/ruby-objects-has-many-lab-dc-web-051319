@@ -17,8 +17,8 @@ class Song
    @artist = new_artist 
   end 
   
-  def artist_name
-    self.artist.artist_name
+  def artist_name(song) 
+    @artist_name = new_artist
   end 
 
 end 
