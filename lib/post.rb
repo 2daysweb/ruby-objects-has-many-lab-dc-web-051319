@@ -15,9 +15,6 @@ class Post
     @@all
   end 
   
-  def author=(author)
-    @author = author
-  end
    def author_name
 
   end
