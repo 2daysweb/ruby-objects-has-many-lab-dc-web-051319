@@ -1,0 +1,34 @@
+class Post 
+  
+  @@authors = []
+  @@all = []
+  attr_reader :author_name
+  attr_reader :author, :title
+   def initialize(title)
+      @author = author 
+      @author_name = author_name
+      @title = title
+      @@all << self
+   end 
+  
+  def self.all 
+    @@all
+  end 
+  
+  def author=(author)
+    @author = author
+  end
+   def author_name
+    if self.author_name == nil 
+      return nil
+    else
+      return self.author_name
+    end
+  end
+  def name=(name)
+    @name = name 
+  end 
+    def title=(new_title)
+    @title= new_title
+    end
+end 
