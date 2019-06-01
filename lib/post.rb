@@ -21,9 +21,7 @@ class Post
    def author_name
 
   end
-  def name=(name)
-    @name = name 
-  end 
+
     def title=(new_title)
     @title= new_title
     end
